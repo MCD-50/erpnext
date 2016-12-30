@@ -24,7 +24,7 @@ google_analytics_id = 'UA-8911157-22'
 
 def get_context(context):
 	context.brand_html = ('<img class="brand-logo" src="'+context.docs_base_url
-		+'/assets/img/erpnext-docs.png"> ERPNext</img>')
+		+'/assets/img/erp-icon.svg"> ERPNext</img>')
 	context.app.splash_light_background = True
 	context.top_bar_items = [
 		{"label": "User Manual", "url": context.docs_base_url + "/user/manual", "right": 1},
